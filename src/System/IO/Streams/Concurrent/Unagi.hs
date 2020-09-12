@@ -13,7 +13,6 @@ module System.IO.Streams.Concurrent.Unagi
 
 
 ------------------------------------------------------------------------------
-import           Control.Applicative           ((<$>), (<*>))
 import           Control.Concurrent.Chan.Unagi (InChan, OutChan, dupChan,
                                                 newChan, readChan, writeChan)
 import           Control.Monad                 ((>=>))

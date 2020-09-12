@@ -13,7 +13,6 @@ module System.IO.Streams.Concurrent.Unagi.Bounded
 
 
 ------------------------------------------------------------------------------
-import           Control.Applicative                   ((<$>), (<*>))
 import           Control.Concurrent.Chan.Unagi.Bounded (InChan, OutChan,
                                                         dupChan, newChan,
                                                         readChan, writeChan)
